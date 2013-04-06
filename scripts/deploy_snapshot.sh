@@ -4,5 +4,5 @@ cp -rv :~/progz/play-2.1.0/repository/local/cc.hollo/playsms-mocked_2.10 ../snap
 cp -rv :~/progz/play-2.1.0/repository/local/cc.hollo/playsms-bulksms_2.10 ../snapshots
 cd ..
 git add .
-git commit -m "Added snapshot '$1' to repository"
+git commit -m "Added snapshot 'playsms' to repository"
 git push -u origin master
