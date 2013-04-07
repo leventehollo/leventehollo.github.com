@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="cc.hollo" module="restauth4play-morphia_2.10" revision="0.1-SNAPSHOT" status="integration" publication="20130406220902">
+	<info organisation="cc.hollo" module="restauth4play-morphia_2.10" revision="0.1-SNAPSHOT" status="integration" publication="20130407145528">
 		<description>
 		restauth4play-morphia
 		</description>
