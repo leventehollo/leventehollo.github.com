@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="cc.hollo" module="misc_2.10" revision="0.1-SNAPSHOT" status="integration" publication="20130413233134">
+	<info organisation="cc.hollo" module="misc_2.10" revision="0.1-SNAPSHOT" status="integration" publication="20130415213526">
 		<description>
 		misc
 		</description>
@@ -28,7 +28,6 @@
 	<dependencies>
 		<dependency org="cc.hollo" name="misc-core_2.10" rev="0.1-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="cc.hollo" name="misc-mongo_2.10" rev="0.1-SNAPSHOT" conf="compile->default(compile)"/>
-		<dependency org="cc.hollo" name="misc-testing_2.10" rev="0.1-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.0" conf="compile->default(compile)"/>
 		<dependency org="play" name="play_2.10" rev="2.1.1" conf="compile->default(compile)"/>
 		<dependency org="play" name="play-test_2.10" rev="2.1.1" conf="test->default(compile)"/>
