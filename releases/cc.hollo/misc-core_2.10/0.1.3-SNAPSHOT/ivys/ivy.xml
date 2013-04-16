@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="cc.hollo" module="misc-core_2.10" revision="0.1.3-SNAPSHOT" status="integration" publication="20130416200621">
+	<info organisation="cc.hollo" module="misc-core_2.10" revision="0.1.3-SNAPSHOT" status="integration" publication="20130416203229">
 		<description>
 		misc-core
 		</description>
