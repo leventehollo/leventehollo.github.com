@@ -42,6 +42,11 @@
             <artifactId>deadbolt-java_2.10</artifactId>
             <version>2.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>cc.hollo</groupId>
+            <artifactId>misc-core_2.10</artifactId>
+            <version>0.1.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <repositories>
         <repository>
