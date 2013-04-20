@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="cc.hollo" module="playsms_2.10" revision="0.2-SNAPSHOT" status="integration" publication="20130416001550">
+	<info organisation="cc.hollo" module="playsms_2.10" revision="0.2-SNAPSHOT" status="integration" publication="20130420195826">
 		<description>
 		playsms
 		</description>
@@ -33,6 +33,7 @@
 		<dependency org="play" name="play_2.10" rev="2.1.1" conf="compile->default(compile)"/>
 		<dependency org="play" name="play-test_2.10" rev="2.1.1" conf="test->default(compile)"/>
 		<dependency org="play" name="play-java_2.10" rev="2.1.1" conf="compile->default(compile)"/>
+		<dependency org="cc.hollo" name="misc-core_2.10" rev="0.1.4-SNAPSHOT" conf="compile->default(compile)"/>
 		<exclude org="org.scala-lang" module="scala-library" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<exclude org="org.scala-lang" module="scala-compiler" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.0"/>
