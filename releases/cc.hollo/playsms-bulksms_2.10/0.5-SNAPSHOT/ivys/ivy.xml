@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="cc.hollo" module="playsms-bulksms_2.10" revision="0.5-SNAPSHOT" status="integration" publication="20130421064253">
+	<info organisation="cc.hollo" module="playsms-bulksms_2.10" revision="0.5-SNAPSHOT" status="integration" publication="20130421064603">
 		<description>
 		playsms-bulksms
 		</description>
