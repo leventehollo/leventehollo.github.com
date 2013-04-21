@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cc.hollo</groupId>
-    <artifactId>playsms_2.10</artifactId>
+    <artifactId>playsms-twilio_2.10</artifactId>
     <packaging>jar</packaging>
-    <description>playsms</description>
+    <description>playsms-twilio</description>
     <version>0.5-SNAPSHOT</version>
-    <name>playsms</name>
+    <name>playsms-twilio</name>
     <organization>
         <name>cc.hollo</name>
     </organization>
@@ -14,21 +14,6 @@
         <dependency>
             <groupId>cc.hollo</groupId>
             <artifactId>playsms-core_2.10</artifactId>
-            <version>0.5-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>cc.hollo</groupId>
-            <artifactId>playsms-mocked_2.10</artifactId>
-            <version>0.5-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>cc.hollo</groupId>
-            <artifactId>playsms-bulksms_2.10</artifactId>
-            <version>0.5-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>cc.hollo</groupId>
-            <artifactId>playsms-twilio_2.10</artifactId>
             <version>0.5-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -51,11 +36,6 @@
             <groupId>play</groupId>
             <artifactId>play-java_2.10</artifactId>
             <version>2.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>cc.hollo</groupId>
-            <artifactId>misc-core_2.10</artifactId>
-            <version>0.1.4-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <repositories>

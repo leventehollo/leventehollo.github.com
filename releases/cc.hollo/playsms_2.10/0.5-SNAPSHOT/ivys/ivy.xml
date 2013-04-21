@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="cc.hollo" module="playsms_2.10" revision="0.5-SNAPSHOT" status="integration" publication="20130421001350">
+	<info organisation="cc.hollo" module="playsms_2.10" revision="0.5-SNAPSHOT" status="integration" publication="20130421060628">
 		<description>
 		playsms
 		</description>
@@ -29,6 +29,7 @@
 		<dependency org="cc.hollo" name="playsms-core_2.10" rev="0.5-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="cc.hollo" name="playsms-mocked_2.10" rev="0.5-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="cc.hollo" name="playsms-bulksms_2.10" rev="0.5-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="cc.hollo" name="playsms-twilio_2.10" rev="0.5-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.0" conf="compile->default(compile)"/>
 		<dependency org="play" name="play_2.10" rev="2.1.1" conf="compile->default(compile)"/>
 		<dependency org="play" name="play-test_2.10" rev="2.1.1" conf="test->default(compile)"/>
