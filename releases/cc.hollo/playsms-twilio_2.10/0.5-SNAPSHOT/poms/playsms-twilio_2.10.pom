@@ -37,6 +37,11 @@
             <artifactId>play-java_2.10</artifactId>
             <version>2.1.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.twilio.sdk</groupId>
+            <artifactId>twilio-java-sdk</artifactId>
+            <version>3.3.15</version>
+        </dependency>
     </dependencies>
     <repositories>
         <repository>
